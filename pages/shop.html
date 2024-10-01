@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <title>Shop</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <nav id="navBar" class="navbar navbar-expand-lg w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="navbar__logo" src="../images/jmz-logo.jpeg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            
+              <a class="nav-link active" href="../index.html">home</a>
+              <a class="nav-link active" href="../pages/about.html">about me</a>
+              <a class="nav-link active" href="../pages/gallery.html">gallery</a>
+              <a class="nav-link active" href="../pages/contacto.html">contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <header>
+        <h1 class="titulo--shop">shop</h1>
+    </header>
+    <main>
+       <h2 class="texto--shop">COMING SOON</h2>
+        <section>
+            <p class="texto--shop_newsletter">Subscribe to newsletter for more info</p>
+
+        </section>
+
+        <form action="submeter-formulario.php" method="post" class="form-shop">				
+    
+                            
+            <p class="contact--form_nameshop">
+                <label for="nombre" class="colocar_nombre">Name
+                    <span class="obligatorio">*</span>
+                </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Write your name" class="">
+            </p>
+        
+            <p class="contact--form_emailshop">
+                <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Write your email">
+            </p>
+
+            <button type="submit" name="enviar_formulario" id="enviar"><p>subscribe!</p></button>
+        </form>
+    
+    </main>
+    <footer>
+        
+        <h2 class="footer--shop_text">2024</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
