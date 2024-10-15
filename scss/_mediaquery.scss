@@ -1,0 +1,116 @@
+/*MEDIA QUERIES*/
+
+/*media query para dispositivos moviles galleria*/
+
+@media (max-width: 600px) {
+    .grid-galeriafotos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 200px);
+        
+    
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3" 
+        "img4"
+        "img5" 
+        "img6"
+        "img7" 
+        "img8"
+    }
+    .grid-galeriafotos img {
+        width: 100%;
+        height: 100%;
+        margin: 2%;
+        margin-top: 5%;
+    } 
+}
+
+/*media query para dispositivos moviles inicio*/
+@media (max-width: 600px) {
+    .imagen-inicio{
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .instagram-logo{
+        width: 5%;
+        margin: auto;
+    
+    }
+    
+    .youtube-logo{
+        width: 10%;
+        margin: auto;
+    }
+}
+
+/*media query para dispositivos moviles aboutme*/
+@media (max-width: 600px) {
+    .imagenes-aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .imagen-about1{
+        width: 100%;
+        margin: 5%;
+       
+    }
+    
+    .imagen-about2{
+        width: 100%;
+        margin: 5%;
+    }
+
+}
+
+/*media query para dispositivos moviles contact*/
+@media (max-width: 600px) {
+.contact_form{	
+	width: 300px; 
+    height: auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #ffffff; 
+    padding-left: 30px; 
+}
+textarea{
+    background-color: #fbfbfb; 
+	width: 200px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #5a5a5a; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+}
+
+/*media query para dispositivos moviles shop*/
+@media (max-width: 600px) {
+    .form-shop{
+        width: 300px; 
+        height: auto;
+        margin: 40px auto;
+        border-radius: 30px;  
+        padding-top: 5px;
+        padding-bottom: 20px;  
+        background-color: #ffffff; 
+        padding-left: 40px; 
+        text-align: center;
+        
+    
+    } 
+}
